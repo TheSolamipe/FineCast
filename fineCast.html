@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- this section goes to header.php in my main ecommerce folder -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ic-edge">
+    <title>Home of elegant fashion</title>
+    <link rel="stylesheet" href="styles/0-plugins/bootstrap.css">
+    <link rel="stylesheet" href="styles/2-base/_global.css">
+    <link rel="stylesheet" href="styles/2-base/_reset.css">
+    <link rel="stylesheet" href="styles/2-base/_typography.css">
+    <link rel="stylesheet" href="styles/3-layout/_siteHeader.css">
+    <link rel="stylesheet" href="styles/3-layout/_navigation.css">
+    <link rel="stylesheet" href="styles/3-layout/_mainContent.css">
+    <link rel="stylesheet" href="styles/3-layout/_cart.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
+    <script type="text/javascript" src="scripts/vendors/jquery-3.4.1.js"></script>
+
+  </head>
+  <body>
+    <!-- this whole section goes to nav.php in my main ecommerce folder -->
+
+    <div class="top-nav-bar navbar navbar-toggleable-md navbar-light bg-faded top-nav-bar">
+      <div class="search-box "> <!--col-9 col-sm-9 col-md-9 col-lg-9-->
+          <a class="navbar-brand " href="#"><img src="images/Finecast_Logo_Black_RGB.png" id="logo" ></a>
+            <input class="form-control " name="search" type="text" placeholder="Search" aria-describedby="basic-addon1" >
+           <span class="input-group-addon" id="basic-addon1" action="process.php" method="post"><i class="fa fa-search"></i></span>
+      </div>
+          <div class="menu-bar" id="navbarToggleExternalContent"> <!--col-3 col-sm-3 col-md-3 col-lg-3 -->
+            <ul >
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><img src="images/person.png" id="persona" title="login"><br>login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images/love.jpg" id="love" title="likes"><br>likes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images/cart.png" id="shoppingCart" title="cart"><br>cart</a>
+                <span class="cart-goodies">0</span>
+              </li>
+            </ul>
+          </div>
+
+    </div>
+
+
+    <!-- this whole section goes to landingPage.php in my main ecommerce folder -->
+    <div class="landingPage">
+      <div class="sideMenu-bar col-2 col-lg-2 col-md-2 col-sm-2" id="navbarToggleExternalContent"> <!--col-3 col-sm-3 col-md-3 col-lg-3 -->
+        <ul >
+          <li class="nav-item active">
+            <a class="nav-link" href="#">On Sale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gowns</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lingerie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">custom tops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dresses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Underwears</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Jeans and skirts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blouse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sweat shirts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pant trousers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shoes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bags</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Beauty Products</a>
+          </li>
+        </ul>
+      </div>
+      <div class="slider col-10 col-lg-10 col-md-10">
+          <img src="images/wpowerBanner.jpg" alt="" id="slide1">
+      </div>
+      <div class="slider col-10 col-lg-10 col-md-10">
+          <div id="slide2">
+            <div class="banner">
+              <h1 class="banner-title">Easy Payment</h1>
+              <button type="button" class="ban-button">Shop now</button>
+            </div>
+          </div>
+      </div>
+      <div class="slider col-10 col-lg-10 col-md-10">
+          <img src="images/jason.jpg" alt="" id="slide3">
+      </div>
+    </div>
+
+      <!-- this whole section goes to mainContent.php in my main ecommerce folder -->
+        <div class="mainSession">
+          <div class="row1 ">
+            <h1>On sales</h1>
+            <div class="products-center">
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                  <img src="images/1-khaki.jpg" alt="" id="pImage">
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                    <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="1"><i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                  </span>
+                  <h4>Mad Khaki</h4>
+                  <h6>#3000</h6>
+                </div>
+              </div>
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-stripe.jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="2"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                  </span>
+                <h4>Mad Stripe</h4>
+                <h6>#2800</h6>
+                </div>
+              </div>
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-lime.jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="3"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                  </span>
+                <h4>Mad lime</h4>
+                <h6>#3900</h6>
+                </div>
+              </div>
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-mustard.jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="4"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                  </span>
+                <h4>Mad Mustad</h4>
+                <h6>#2000</h6>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row1">
+            <h1>Trending</h1>
+            <div class="products-center">
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-cream.jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="5"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                  </span>
+                <h4>Mad Cream</h4>
+                <h6>#4000</h6>
+                </div>
+
+              </div>
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-multi.jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="6"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                  </span>
+                <h4>Mad Multi</h4>
+                <h6>#2500</h6>
+                </div>
+
+              </div>
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-grey.jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="7"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                  </span>
+                <h4>Mad Grey</h4>
+                <h6>#3400</h6>
+                </div>
+
+              </div>
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-lilac.jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="8"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                  </span>
+                <h4>Mad Lilac</h4>
+                <h6>#3000</h6>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row1">
+            <h1>Classy</h1>
+            <div class="products-center">
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-green.jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="9"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                  </span>
+                <h4>Mad Green</h4>
+                <h6>#3200</h6>
+                </div>
+
+              </div>
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-brown.jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="10"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                  </span>
+                <h4>Mad Brown</h4>
+                <h6>#2300</h6>
+                </div>
+
+              </div>
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-grey (2).jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="11"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                  </span>
+                <h4>Mad Grey 2</h4>
+                <h6>#2500</h6>
+                </div>
+
+              </div>
+              <div class="p1 col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class= "product-top">
+                <img src="images/1-stripe.jpg" alt="" id="pImage">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><i class="fa fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="btn btn-secondary cart-btn" title="Add to Cart" data-id ="12"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+              </div>
+                <div class="words">
+                  <span id="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                  </span>
+                <h4>Mad Stripe2</h4>
+                <h6>#3300</h6>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- this whole section goes to Cart.php in my main ecommerce folder -->
+        <div class="cart-overlay">
+          <div class="cart">
+            <span class="close-cart"><i class="fa fa-window-close"></i></span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+              <div class="cart-item">
+                <img src="images/1-brown.jpg" id="pro">
+              </div>
+              <div class="cart-details">
+                <h4>mad brown</h4>
+                <h5>#3300</h5>
+                <span class="remove-item">remove</span>
+              </div>
+              <div class="cart-count">
+                <i class="fa fa-chevron-up"></i>
+                <p class="item-amount">1</p>
+                <i class="fa fa-chevron-down"></i>
+              </div>
+            </div>
+            <div class="cart-footer">
+              <h3>Your total : # <span class="cart-total"></span> </h3>
+              <button class="clear-cart" name="button">Clear cart</button>
+              <button class="check-out" name="button"><a href="#">Check Out</a></button>
+            </div>
+          </div>
+
+        </div>
+
+    <script type="text/javascript" src="scripts/base/slider.js"></script>
+    <script type="text/javascript" src="scripts/base/cart.js"></script>
+  </body>
+</html>

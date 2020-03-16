@@ -1,0 +1,139 @@
+#logo {
+  width: 9vw;
+  height: 6vh;
+  margin: 0;
+}
+.top-nav-bar{
+  height: 10vh;
+  top: 0;
+  position: sticky;
+  background: #fff;
+  margin-bottom: 0.55em;
+  border-bottom: 0.2em solid #e35c0eeb;
+  z-index: 2;
+}
+
+.form-control{
+  margin-top: 0.05em;
+  margin-left: 0.2em;
+  border: 0.1em solid #e35c0eeb !important; /*#76828c*/
+  border-top-left-radius: 2.3em !important;
+  border-bottom-left-radius: 2.3em !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  box-shadow: none !important;
+}
+.input-group-addon{
+  background: #e35c0eeb;
+  height: 2.4em;
+  border: 0.3em solid #e35c0eeb;
+  margin: 0.05em 0.9em 1.1em 0 ;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 2.3em !important;
+  border-bottom-right-radius: 2.3em !important;
+  cursor: pointer;
+}
+.search-box{
+  display: inline-flex;
+  width: 79%;
+  margin-top: 0.55em;
+  margin-right: 0;
+}
+.fa-search{
+  color: black;
+  margin-top: 0.5em;
+}
+.menu-bar{
+  background: #e35c0eeb;
+  width: 20%;
+  height: 7.0vh;
+  float: right;
+  margin-top: 0;
+}
+.menu-bar ul{
+  display: inline-flex;
+
+}
+.menu-bar ul li{
+/*  border-left: 0.2em solid #44e2fbe3;*/
+  float: right;
+  text-align: center;
+  padding: 0.15em 0.65em;
+  cursor: pointer;
+}
+.menu-bar ul li a{
+  border-left: 0.2em solid #fff;
+  color: black;
+  float: right;
+  text-align: center;
+  padding: 0.15em 0.55em;
+  cursor: pointer;
+}
+.navbar-nav, .mr-auto, .navbar{
+  margin-left: 0.2em;
+  margin-right: 0.1em;
+  display: flex;
+}
+#persona, #love, #shoppingCart{
+  width: 2.0vw;
+  height: 3.4vh;
+  padding: 0.25em;
+}
+
+.cart-goodies{
+  background: #fff;
+  padding: 0.1em;
+  border-radius: 30%;
+  position: absolute;
+  display: block;
+  margin-left: 2.2em;
+  margin-top: -0.2em;
+}
+
+@media only screen and (max-width: 980px) {
+  .top-nav-bar{
+    height: 6vh;
+    border-bottom: 0;
+    background: #fff;
+  }
+  #logo {
+    width: 11.5vw;
+    height: 4.0vh;
+    margin: 0;
+  }
+  .search-box{
+    width: 100%;
+  }
+  .form-control{
+    height: 3vh;
+  }
+  .input-group-addon{
+    height: 1.35em;
+  }
+  .fa-search{
+    margin-top: 0em;
+  }
+  .menu-bar{
+    width: 100%;
+  }
+  .menu-bar ul{
+    width: 100%;
+    margin: 0.45em 0;
+  }
+  .menu-bar ul li{
+    width: 100%;
+    height: 3.25em;
+    padding: 0.15em 3em;
+  }
+  #persona, #love, #shoppingCart{
+    width: 2.6vw;
+    height: 1.8vh;
+    padding: 0;
+  }
+  .cart-goodies{
+    padding: 0.1em;
+    margin-left: 7.1em;
+    margin-top: -0.4em;
+  }
+}

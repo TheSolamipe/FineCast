@@ -1,0 +1,101 @@
+ {
+  "items": [
+    {
+      "sys": {"id":"1"},
+      "field": {
+        "title": "mad khaki",
+        "price": 3000,
+        "image": {"fields": {"file": {"url": "../../images/1-khaki.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id":"2"},
+      "field": {
+        "title": "mad stripe",
+        "price": 2800,
+        "image": {"fields": {"file": {"url": "../../images/1-stripe.jpg"}}}
+      }
+    },
+    {
+      "sys":{"id": "3"},
+      "field":{
+        "title": "mad lime",
+        "price": 3900,
+        "image": {"fields": {"file": {"url": "../../images/1-lime.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id": "4"},
+      "field": {
+        "title": "mad Mustad",
+        "price": 2000,
+        "image": {"fields": {"file": {"url": "../../images/1-mustard.jpg"}}}
+      }
+  },
+  {
+    "sys": {"id": "5"},
+    "field": {
+      "title": "mad Cream",
+      "price": 4000,
+      "image": {"fields": {"file": {"url": "../../images/1-cream.jpg"}}}
+    }
+  },
+  {
+    "sys": {"id": "6"},
+    "field": {
+      "title": "mad Multi",
+      "price": 2500,
+      "image": {"fields": {"file": {"url": "../../images/1-multi.jpg"}}}
+    }
+  },
+  {
+    "sys": {"id": "7"},
+    "field": {
+      "title": "mad Grey",
+      "price": 3400,
+      "image": {"fields": {"file": {"url": "../../images/1-grey.jpg"}}}
+    }
+  },
+  {
+    "sys": {"id": "8"},
+    "field": {
+      "title": "mad Lilac",
+      "price": 3000,
+      "image": {"fields": {"file": {"url": "../../images/1-lilac.jpg"}}}
+    }
+  },
+  {
+    "sys": {"id": "9"},
+    "field": {
+      "title": "mad Green",
+      "price": 3200,
+      "image": {"fields": {"file": {"url": "../../images/1-green.jpg"}}}
+    }
+  },
+  {
+    "sys": {"id": "10"},
+    "field": {
+      "title": "mad brown",
+      "price": 3200,
+      "image": {"fields": {"file": {"url": "../../images/1-brown.jpg"}}}
+    }
+  },
+  {
+    "sys": {"id": "11"},
+    "field": {
+      "title": "mad Grey 2",
+      "price": 2500,
+      "image": {"fields": {"file": {"url": "../../images/1-grey (2).jpg"}}}
+    }
+  },
+  {
+    "sys": {"id": "12"},
+    "field": {
+      "title": "mad Stripe 2",
+      "price": 3300,
+      "image": {"fields": {"file": {"url": "../../images/1-stripe.jpg"}}}
+    }
+  },
+  ]
+}
+export items[];

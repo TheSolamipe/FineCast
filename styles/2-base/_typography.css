@@ -1,0 +1,53 @@
+@font-face {
+  font-family: playfair;
+  src:url("../../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf");
+  format("ttf");
+}
+@font-face {
+  font-family: poppins;
+  src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+  format("ttf");
+}
+@font-face {
+  font-family: poppins2;
+  src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+  format("ttf");
+}
+@font-face{
+  font-family: circular;
+  src: url("../../fonts/Circular/CircularStd-Bold.otf");
+  format("otf");
+}
+h1, h2{
+  font-family: playfair;
+  font-size: 3em;
+}
+h2{
+  font-size: 1.7em;
+}
+h4{
+  font-size: 1.05em;
+}
+h6{
+  font-size: 0.75em;
+}
+li, h4, h6{
+  font-family: poppins;
+}
+.cart-details h4, .cart-details h5, .cart-footer h3{
+  font-family: poppins2;
+}
+@media only screen and (max-width: 980px) {
+  h1{
+    font-size: 2.1em;
+  }
+  h2{
+    font-size: 1.2em;
+  }
+  h4{
+    font-size: 0.85em;
+  }
+  li, h6{
+    font-size: 0.65em;
+  }
+}
